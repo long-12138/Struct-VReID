@@ -1,4 +1,3 @@
-# Struct_VReID
 # Struct-VReID: Semantics-Guided Visual Grounding for Occluded Text-to-Video Person Re-identification
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/struct-vreid-semantics-guided-visual/text-to-video-person-re-identification-on)](https://paperswithcode.com/sota/text-to-video-person-re-identification-on)
