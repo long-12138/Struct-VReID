@@ -50,8 +50,11 @@ To evaluate the trained model, we provide a robust testing script cross_test.py 
 
 ```bash
 # Example: Evaluate Duke-trained model on PRID dataset
-python cross_test.py --name test_duke_to_prid --dataset_name TVPReid-PRID --resume_ckpt_file logs/TVPReid-Duke/20260105_120238_iira/best.pth --loss_names 'sdm+mlm+id+struct'
+python cross_test.py 
 ```
+
+## 🙏 Acknowledgements
+We sincerely thank the open-source communities and the authors of [CLIP](https://github.com/openai/CLIP) and [IRRA](https://github.com/anosorae/IRRA) for their brilliant foundational works.
 
 ## ⚙️ Installation
 
