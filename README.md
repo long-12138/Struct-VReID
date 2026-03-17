@@ -10,7 +10,7 @@ Official PyTorch implementation of the paper **"Struct-TVReID: LLM-Driven Struct
 ## 💡 Introduction
 Struct-TVReID introduces a **Hierarchical Semantic Parsing (LLM-HSP)** module to decompose unstructured text into a semantic tree. Guided by this topology, our **Semantics-Guided Visual Grounding (SGVG)** mechanism actively searches for visible regions across the spatio-temporal domain to filter out occlusion noise. Finally, a **Multi-Granularity Structural Consistency Alignment (MSCA)** objective ensures geometric and semantic correspondence between retrieved video parts and descriptions via an explicit geometric centroid constraint.
 
-![Architecture Diagram](Struct-VReID_Safe_Version.png) 
+![Architecture Diagram](figures/Struct-VReID_Safe_Version.png) 
 
 ## 🏆 Main Results
 
