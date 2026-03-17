@@ -24,13 +24,25 @@ Extensive experiments on TVPReid benchmarks demonstrate the superiority of Struc
 | **TVPReid-iLIDs** | **40.67%** | 66.00% | 82.67% | 53.59% | 3.00 |
 | **TVPReid-Duke** | **51.58%** | 78.36% | 84.08% | 63.74% | 1.00 |
 
-### Zero-Shot Cross-Dataset Generalization (Rank-1)
+**Table: Robustness evaluation of Struct-TVReID under varying ratios of dynamic spatial occlusion across three benchmarks.**
 
-| Source \ Target | TVPReid-PRID | TVPReid-iLIDs | TVPReid-Duke |
-| :--- | :---: | :---: | :---: |
-| **TVPReid-PRID** | - | 20.67% | 12.52% |
-| **TVPReid-iLIDs** | 13.38% | - | 4.31% |
-| **TVPReid-Duke** | **30.63%** | **21.33%** | - |
+| **Dataset** | **Noise Ratio** | **Rank-1** | **Rank-5** | **Rank-10** | **mAP** |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **TVPReid-PRID** | 0% (Clean) | 66.55 | 89.79 | 97.54 | 76.87 |
+| | 10% | 63.03 | 87.68 | 95.78 | 74.24 |
+| | 20% | 55.28 | 86.62 | 92.25 | 68.27 |
+| | 30% | 48.59 | 81.69 | 90.85 | 64.06 |
+| | 40% | 44.72 | 81.34 | 89.44 | 60.53 |
+| **TVPReid-iLIDs** | 0% (Clean) | 40.67 | 82.67 | 89.33 | 53.59 |
+| | 10% | 38.00 | 66.00 | 83.33 | 51.53 |
+| | 20% | 35.33 | 64.00 | 80.00 | 49.38 |
+| | 30% | 37.33 | 65.33 | 76.67 | 50.24 |
+| | 40% | 34.00 | 62.00 | 78.00 | 47.40 |
+| **TVPReid-Duke** | 0% (Clean) | 51.58 | 84.08 | 78.36 | 63.74 |
+| | 10% | 49.67 | 76.37 | 84.83 | 62.03 |
+| | 20% | 48.26 | 76.70 | 83.91 | 61.23 |
+| | 30% | 45.27 | 74.71 | 82.50 | 58.14 |
+| | 40% | 43.28 | 72.14 | 81.18 | 56.52 |
 
 ## 📂 Data Preparation
 Please download the TVPReid datasets [PRID, iLIDs, Duke](https://github.com/NjtechCVLab/TVPReid-Dataset). Organize the directory structure as follows:
