@@ -83,4 +83,4 @@ pip install torch torchvision torchaudio --index-url [https://download.pytorch.o
 
 # Install dependencies
 pip install -r requirements.txt
-pip install opencv-python matplotlib# Struct-VReID: Semantics-Guided Visual Grounding for Occluded Text-to-Video Person Re-identification
+pip install opencv-python matplotlib
