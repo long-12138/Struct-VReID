@@ -12,6 +12,14 @@ Struct-TVReID introduces a **Hierarchical Semantic Parsing (LLM-HSP)** module to
 
 ![Architecture Diagram](figures/Struct-VReID_Safe_Version.png) 
 
+## 🤖 LLM-HSP
+Step1.You can choose to deploy the large model locally or use an online large model
+Step2.
+```bash
+# If you wish to use this module 
+python process_local_qwen.py 
+```
+
 ## 🏆 Main Results
 
 Extensive experiments on TVPReid benchmarks demonstrate the superiority of Struct-TVReID, especially under severe occlusions and cross-domain Zero-Shot generalization scenarios.
